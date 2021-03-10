@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Boiler</title>
+
+    <meta name="description" content="" />
+    <link rel="apple-touch-icon" href="./assets/img/icon.png" />
+    <link rel="icon" href="./assets/img/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css.map" />
+</head>
+
+<body>
+
+    <div class="reloj">
+
+        <div class="reloj_content">
+
+            <div class="reloj_title">CLOCK</div>
+
+            <div class="cronometro_title invisible">STOPWATCH</div>
+
+
+            <div class="reloj_time">
+                <div class="circle"></div>
+                <canvas class="canvas" width="350" height="350"></canvas>
+            </div>
+
+            <div class="cronometro_time invisible">
+                <div class="circle"></div>
+                <span class="hms"></span>
+            </div>
+
+
+            <div class="reloj_buttons">
+
+                <div class="buttons_top invisible">
+
+                    <button class="start_button unactive">
+                        <div class="rectangle"></div>
+                        <span>Start</span>
+                    </button>
+
+                    <button class="pause_button unactive">
+                        <div class="rectangle"></div>
+                        <span>Pause</span>
+                    </button>
+
+                    <button class="reset_button unactive">
+                        <div class="rectangle"></div>
+                        <span>Reset</span>
+                    </button>
+
+                </div>
+                <!-- /buttons_top -->
+
+                <div class="buttons_bottom">
+
+                    <button class="reloj_button active">
+                        <div class="rectangle"></div>
+                        <span class="fa fa-clock-o"></span>
+                    </button>
+
+                    <button class="cronometro_button unactive">
+                        <div class="rectangle"></div>
+                        <span class="fa fa-hourglass-half"></span>
+                    </button>
+
+                </div>
+                <!-- /buttons_botom -->
+
+            </div>
+            <!-- /reloj_buttoms -->
+
+        </div>
+        <!-- /reloj_content -->
+
+    </div>
+    <!-- /reloj -->
+
+
+
+
+    <script src="app/main.js"></script>
+
+</body>
+
+</html>

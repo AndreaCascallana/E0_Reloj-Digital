@@ -1,0 +1,81 @@
+$font_route_a: '../fonts/red-hat-display';
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-Regular.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-Regular.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-BoldItalic.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-BoldItalic.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-Black.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-Black.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-BlackItalic.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-BlackItalic.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-Italic.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-Italic.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-MediumItalic.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-MediumItalic.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-Medium.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-Medium.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('#{$font_route_a}/RedHatDisplay-Black.eot');
+    src: url('#{$font_route_a}/RedHatDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('#{$font_route_a}/RedHatDisplay-Black.woff') format('woff'),
+        url('#{$font_route_a}/RedHatDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

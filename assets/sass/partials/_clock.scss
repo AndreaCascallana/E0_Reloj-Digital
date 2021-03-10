@@ -1,0 +1,103 @@
+.reloj {
+    display: flex;
+    justify-content: center;
+
+    padding: $large_padding * 6;
+
+    .reloj_content {
+
+        .reloj_title {
+            font-size: $font_size_base * 2;
+            font-weight: 900;
+            text-align: center;
+
+            margin-bottom: $large_margin;
+
+            visibility: visible;
+
+            &.invisible {
+                visibility: hidden;
+                display: none;
+            }
+        }
+
+        .cronometro_title {
+            font-size: $font_size_base * 2;
+            font-weight: 900;
+            text-align: center;
+
+            margin-bottom: $large_margin;
+
+            visibility: visible;
+
+            &.invisible {
+                visibility: hidden;
+                display: none;
+            }
+        }
+
+        .reloj_time {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: $normal_padding;
+
+            visibility: visible;
+
+            &.invisible {
+                visibility: hidden;
+                display: none;
+            }
+
+            .circle {
+                height: 350px;
+                width: 350px;
+                border-radius: 50%;
+
+                background-color: $bg_grey;
+                border: 2px solid $white;
+                box-sizing: border-box;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -12px -12px 20px rgba(255, 255, 255, 0.35);
+                filter: blur(4px);
+            }
+
+            .canvas {
+                position: absolute;
+                
+                background-color: transparent;
+            }
+        }
+
+        .cronometro_time {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: $normal_padding;
+
+            visibility: visible;
+
+            &.invisible {
+                visibility: hidden;
+                display: none;
+            }
+
+            .circle {
+                height: 350px;
+                width: 350px;
+                border-radius: 50%;
+
+                background-color: $bg_grey;
+                border: 2px solid $white;
+                box-sizing: border-box;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -12px -12px 20px rgba(255, 255, 255, 0.35);
+                filter: blur(4px);
+            }
+
+            .hms {
+                position: absolute;
+            }
+        }
+    }
+}

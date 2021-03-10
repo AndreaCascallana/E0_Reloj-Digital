@@ -1,0 +1,159 @@
+.reloj {
+
+    .reloj_content {
+
+        .reloj_buttons {
+            display: flex;
+            flex-direction: column;
+
+            .buttons_top {
+                display: flex;
+                justify-content: space-around;
+
+                margin-top: $large_margin;
+
+                visibility: visible;
+
+                &.invisible {
+                    visibility: hidden;
+                    display: none;
+                }
+
+                .start_button {
+
+                    .rectangle {
+                        height: 40px;
+                        width: 80px;
+                    }
+
+                    span {}
+                }
+
+                .pause_button {
+
+                    .rectangle {
+                        height: 40px;
+                        width: 80px;
+                    }
+
+                    span {}
+                }
+
+                .reset_button {
+
+                    .rectangle {
+                        height: 40px;
+                        width: 80px;
+                    }
+
+                    span {}
+                }
+            }
+
+            .buttons_bottom {
+                display: flex;
+                justify-content: space-around;
+
+                margin-top: $large_margin;
+
+
+                .reloj_button {
+
+                    .rectangle {}
+    
+                    span {
+                        font-size: $font_size_base * 1.25;
+                    }
+                }
+    
+                .cronometro_button {
+
+                    .rectangle {}
+    
+                    span {
+                        font-size: $font_size_base * 1.25;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+/** COMPONENTES **/
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: $normal_padding;
+
+    border: none;
+
+    cursor: pointer;
+
+    &:focus {
+        outline: 0px transparent;
+    }
+
+    // ESTADO INACTIVO
+    &.unactive {
+
+        .rectangle {
+            height: 40px;
+            width: 40px;
+            border-radius: 6px;
+
+            background-color: $bg_grey;
+            border: 2px solid $white;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -8px -8px 10px rgba(255, 255, 255, 0.35);
+            filter: blur(2.5px);
+        }
+
+        span {
+            position: absolute;
+
+            color: $body_color;
+
+            transition: all 350ms ease;
+
+            &:hover {
+                color: $purple2;
+            }
+        }
+    }
+
+
+    // ESTADO ACTIVADO
+    &.active {
+
+        .rectangle {
+            height: 40px;
+            width: 40px;
+            border-radius: 6px;
+
+            border-color: $bg_grey;
+            border: 2px solid $white;
+            box-sizing: border-box;
+            box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25), inset -8px -8px 10px rgba(255, 255, 255, 0.3);
+            filter: blur(2.5px);
+        }
+
+        span {
+            position: absolute;
+
+            color: $body_color;
+
+            transition: all 350ms ease;
+
+            &:hover {
+                color: $purple2;
+            }
+        }
+    }
+}
